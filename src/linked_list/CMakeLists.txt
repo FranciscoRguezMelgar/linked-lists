@@ -1,0 +1,2 @@
+add_library(libLinkedList SHARED linked_list.c linked_list_allocator.c linked_list_node.c linked_list_iterator.c)
+target_include_directories(libLinkedList PUBLIC include)
